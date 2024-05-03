@@ -1,0 +1,58 @@
+*{
+    cursor: pointer;
+}
+
+body {
+    font-family: "Merienda", cursive;
+    font-style: normal;
+    display: block;
+    width: 350px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-image: url("Restaurant.jpg");
+    background-size: cover;
+    width: 350px;
+    height: 400px;
+    color: whitesmoke
+}
+
+#count-el {
+    font-size: 32px;
+    margin: 4px
+}
+
+#served-btn {
+    display: block;
+    margin: 0 auto 5px auto;
+    width: 200px;
+    background: linear-gradient(orange, orangered);
+    padding: 7px 14px;
+    border: 2px solid rgb(240, 216, 216);
+    border-radius: 10px;
+    color:rgb(255, 255, 255)
+}
+#served-btn:hover {
+    background: red;
+}
+
+#save-btn {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    background: green;
+    padding: 7px 14px;
+    border: 2px solid rgb(240, 216, 216);
+    border-radius: 10px;
+    color:rgb(255, 255, 255)
+}
+
+#save-el {
+    text-shadow: 0px 0px 5px black;
+    font-size: 14px;
+    font-weight: bold;
+}
